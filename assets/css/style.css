@@ -1,0 +1,42 @@
+body {
+  background-image: url("../images/fragglerock.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-color: darkgray;
+}
+h1 {
+  color: green;
+  font-family: "Fontdiner Swanky", cursive;
+  font-size: 60px;
+}
+#time {
+  color: white;
+  background-color: green;
+  margin-left: 30px;
+  font-size: 24px;
+  font-family: "Fontdiner Swanky", cursive;
+  width: 220px;
+  text-align: center;
+}
+#start {
+  margin: 30px;
+}
+#button {
+  margin: 30px;
+}
+.button {
+  text-align: center;
+}
+#quiz {
+  font-family: "Fontdiner Swanky", cursive;
+  font-size: 24px;
+  text-align: left;
+  color: white;
+  background-color: green;
+  width: 650px;
+  padding: 40px;
+
+  margin-left: 28%;
+}

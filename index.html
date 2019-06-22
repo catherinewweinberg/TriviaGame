@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TriviaGame</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="row">
+        <div class="col-sm-12">
+            <h1 class="text-center">Fraggle Rock Trivia!</h1>
+          </div>
+        </div>
+      </div>
+
+      <div id="buttons">
+        <button type="button" class="btn btn-success" id="start">
+          <h2>Start</h2>
+        </button>
+      </div>
+      <div id="mainpage">
+        <div id="time"></div>
+
+        <form id="quiz" name="quiz">
+          <p>Who created Fraggle Rock?</p>
+          <input
+            type="radio"
+            class="Question1"
+            name="q1"
+            value="Jim Henson"
+            id="q1"
+          />
+          Jim Henson<br />
+          <input
+            type="radio"
+            class="Question1"
+            name="q1"
+            value="Steven Spielberg"
+            id="q1"
+          />
+          Steven Spielberg<br />
+          <input
+            type="radio"
+            class="Question1"
+            name="q1"
+            value="Spike Lee"
+            id="q1"
+          />
+          Spike Lee<br />
+          <br>
+
+          <p>What year did Fraggle Rock premier?</p>
+          <input
+            type="radio"
+            class="Question2"
+            name="q2"
+            value="1982"
+            id="q2"
+          />
+          1982<br />
+          <input
+            type="radio"
+            class="Question2"
+            name="q2"
+            value="1983"
+            id="q2"
+          />
+          1983<br />
+          <input
+            type="radio"
+            class="Question2"
+            name="q2"
+            value="1984"
+            id="q2"
+          />
+          1984<br />
+          
+          <br>
+
+          <p>
+            In the early versions of the script, what were the Fraggles referred
+            to as?
+          </p>
+          <input
+            type="radio"
+            class="Question3"
+            name="q3"
+            value="Doozers"
+            id="q3"
+          />
+          Doozers<br />
+          <input
+            type="radio"
+            class="Question3"
+            name="q3"
+            value="Hensons"
+            id="q3"
+          />
+          Hensons<br />
+          <input
+            type="radio"
+            class="Question3"
+            name="q3"
+            value="Woozles"
+            id="q3"
+          />
+          Woozles<br />
+
+          <br>
+          <p>What were the monsters called in Fraggle Rock?</p>
+          <input
+            type="radio"
+            class="Question4"
+            name="q4"
+            value="Boober"
+            id="q4"
+          />
+          Boober<br />
+          <input
+            type="radio"
+            class="Question4"
+            name="q4"
+            value="Gorgs"
+            id="q4"
+          />
+          Gorgs<br />
+          <input
+            type="radio"
+            class="Question4"
+            name="q4"
+            value="Sprockets"
+            id="q4"
+          />
+          Sprockets<br />
+          <br>
+
+          <p>According to the Fraggles, where is "outer space"?</p>
+          <input
+            type="radio"
+            class="Question5"
+            name="q5"
+            value="Mars"
+            id="q5"
+          />
+          Mars<br />
+          <input
+            type="radio"
+            class="Question5"
+            name="q5"
+            value="Pluto"
+            id="q5"
+          />
+          Pluto<br />
+          <input
+            type="radio"
+            class="Question5"
+            name="q5"
+            value="Earth"
+            id="q5"
+          />
+          Earth<br />
+
+          <div class=button>
+
+          <input id="button" type="button" value="Finished!" />
+        </div>
+        </form>
+        <div id="afterSubmit">
+          <p id="numberCorrect"></p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  </body>
+</html>
